@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Portfolio.</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="myskill.html" class="active">Myskill</a>
+            <a href="Website_Game.html">Website/Game</a>
+        </div>
+    </nav>
+
+    <main class="center-wrapper">
+
+        <section class="skills-section">
+            
+            <h2>ทักษะ / My Skills</h2>
+
+            <div class="skill-item">
+                <span class="skill-name">HTML</span>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="animation-name: fill-html;"></div>
+                </div>
+                <span class="skill-percent">75%</span>
+            </div>
+            
+            <div class="skill-item">
+                <span class="skill-name">CSS</span>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="animation-name: fill-css;"></div>
+                </div>
+                <span class="skill-percent">70%</span>
+            </div>
+
+            <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="animation-name: fill-js;"></div>
+                </div>
+                <span class="skill-percent">65%</span>
+            </div>
+
+            <div class="skill-item">
+                <span class="skill-name">Unity</span>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="animation-name: fill-unity;"></div>
+                </div>
+                <span class="skill-percent">70%</span>
+            </div>
+
+            <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="animation-name: fill-python;"></div>
+                </div>
+                <span class="skill-percent">55%</span>
+            </div>
+
+        </section> </main> <style>
+        @keyframes fill-html  { from { width: 0; } to { width: 75%; } }
+        @keyframes fill-css   { from { width: 0; } to { width: 70%; } }
+        @keyframes fill-js    { from { width: 0; } to { width: 65%; } }
+        @keyframes fill-unity { from { width: 0; } to { width: 70%; } }
+        @keyframes fill-python{ from { width: 0; } to { width: 55%; } }
+    </style>
+
+</body>
+</html>
